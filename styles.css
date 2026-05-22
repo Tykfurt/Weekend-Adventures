@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HERO */
+
+.hero {
+    height: 100vh;
+    background: url('https://scontent.feoh1-1.fna.fbcdn.net/v/t39.30808-6/502863682_10235718576801395_5500472503528301555_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHRBhbWOM1X4R1ROQlRj3h9gdFaJZwSKSqB0VolnBIpKjXm_JQkcguICYEY388qpgs&_nc_ohc=9b55YauYuGsQ7kNvwGjyXSD&_nc_oc=AdqcIHN_mgYppR9m34qJ20piMnEJad3qkKQ56OE3zDxy7hTJbvGOCGMC7kmmSoTLUBelASonrpXOhlwB9kZCmSQO&_nc_zt=23&_nc_ht=scontent.feoh1-1.fna&_nc_gid=94PVcoaRiFfcWWu_oWT0qw&_nc_ss=7b2a8&oh=00_Af5IPHmbpnQvVVzUug321sZRrTrJLaE6k1ZQWiVnOj2LFw&oe=6A0E5592') center/cover no-repeat;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.overlay h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.overlay p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.price-box {
+    background: rgba(255, 255, 255, 0.15);
+    border: 2px solid white;
+    padding: 15px 30px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.price-box h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+/* BUTTONS */
+
+.btn,
+.whatsapp-btn {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 40px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.btn:hover,
+.whatsapp-btn:hover {
+    background: #1da851;
+}
+
+/* SECTIONS */
+
+.about,
+.contact {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.about h2,
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p,
+.contact p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+/* CARDS */
+
+.activities {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    padding: 60px 10%;
+    background: white;
+}
+
+.card {
+    background: #f9f9f9;
+    width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+/* WARNING */
+
+.warning {
+    margin-top: 25px;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* FOOTER */
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .overlay h1 {
+        font-size: 2.5rem;
+    }
+
+    .overlay p {
+        font-size: 1rem;
+    }
+
+    .activities {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price-box h2 {
+        font-size: 1.5rem;
+    }
+}
