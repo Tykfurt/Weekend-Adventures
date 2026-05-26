@@ -29,7 +29,7 @@ Performance according to Google Chrome DevTools Lighthouse.
 
 ### Core Web Vitals
 
-| Metrics | Valor |
+| Metrics | Value |
 |---|---|
 | First Contentful Paint (FCP) | 1.8 s |
 | Largest Contentful Paint (LCP) | 2.0 s |
