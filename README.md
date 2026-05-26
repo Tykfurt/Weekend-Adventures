@@ -18,6 +18,24 @@ The website allows visitors to learn about the events, see the participation cos
 - Mobile-friendly layout
 
 ---
+Performance according to Google Chrome DevTools Lighthouse.
+
+| Metrics | Result |
+|---|---|
+| Performance | 78 |
+| Accessibility | 85 |
+| Best Practices | 96 |
+| SEO | 90 |
+
+### Core Web Vitals
+
+| Metrics | Valor |
+|---|---|
+| First Contentful Paint (FCP) | 1.8 s |
+| Largest Contentful Paint (LCP) | 2.0 s |
+| Total Blocking Time (TBT) | 440 ms |
+| Cumulative Layout Shift (CLS) | 0 |
+| Speed Index | 11.5 s |
 
 ## Technologies Used
 
