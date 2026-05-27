@@ -15,7 +15,7 @@ body {
 
 .hero {
     height: 100vh;
-    background: url('https://scontent.feoh3-1.fna.fbcdn.net/v/t39.30808-6/502863682_10235718576801395_5500472503528301555_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHRBhbWOM1X4R1ROQlRj3h9gdFaJZwSKSqB0VolnBIpKjXm_JQkcguICYEY388qpgs&_nc_ohc=rmOq1wrYUSUQ7kNvwEzZuq5&_nc_oc=Adq5ntEW9f4eqB8qyJtQy5BITbOyszgWi4qhbYLiw5pE3Ke0c-NfkjaniSVXENN6qqPw_7uo1FBUI5gnYeB7CKZS&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&_nc_gid=z8rZsruwu5Lrj6T-mkJ_jg&_nc_ss=7b2a8&oh=00_Af6pEKh1V3YoePPFbLEu-Y0I9H7XN2pPyBAo_c3qaCKQPQ&oe=6A155D92') center/cover no-repeat;
+    background: url('lobby_image.jpg') center/cover no-repeat;
 }
 
 .overlay {
