@@ -51,4 +51,5 @@ Weekend-Adventures/
 │
 ├── index.html
 ├── styles.css
+├── lobby_image.jpg
 └── README.md
